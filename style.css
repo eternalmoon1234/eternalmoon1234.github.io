@@ -13,6 +13,65 @@ body {
   padding: 0;
 }
 
+.proj-triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 30px 100vw;
+  border-color: transparent transparent #4717f6 transparent;
+  position: relative;
+  top: 25rem;
+}
+
+.flipped-projects {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 30px 100vw;
+  border-color: transparent transparent #4717f6 transparent;
+  position: relative;
+  top: 25rem;
+  transform: scale(-1, -1);
+}
+
+.projects {
+  background-color: #4717f6;
+  position: relative;
+  top: 25rem;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+
+.js {
+  position: relative;
+  right: 10rem;
+}
+
+.py {
+  position: relative;
+  right: 5rem;
+}
+
+.java {
+  position: relative;
+}
+
+.node {
+  position: relative;
+  left: 5rem;
+}
+
+.react {
+  position: relative;
+  left: 7rem;
+}
+
+.ts {
+  position: relative;
+  left: 10rem;
+}
+
 .navbar {
   display: flex;
   position: relative;
@@ -158,7 +217,8 @@ body {
 }
 
 .about-title,
-.skill-title {
+.skill-title,
+.proj-title {
   font-size: 60px;
 }
 
@@ -200,6 +260,27 @@ body {
 
   .github {
     margin-left: -14rem;
+  }
+
+  .java {
+    left: 20px;
+  }
+
+  .py {
+    left: 10px;
+  }
+
+  .js {
+    left: -10px;
+  }
+
+  .node {
+    position: absolute;
+    bottom: 35px;
+  }
+
+  .react {
+    top: 10px;
   }
 }
 
