@@ -2,9 +2,51 @@
   box-sizing: border-box;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
+}
+
+.js {
+  position: relative;
+  top: 25rem;
+  left: 10rem;
+}
+
+.node {
+  position: relative;
+  top: 70rem;
+  right: 3rem;
+}
+
+.ts {
+  position: relative;
+  top: 88rem;
+  right: 7rem;
+}
+
+.react {
+  position: relative;
+  top: 71rem;
+  left: 9rem;
+}
+
+.java {
+  position: relative;
+  top: 47rem;
+  left: 10rem;
+}
+
+.py {
+  position: relative;
+  top: 45rem;
+  right: 4rem;
 }
 
 .navbar {
@@ -151,8 +193,17 @@ body {
   text-align: center;
 }
 
-.about-title .skill-title {
-  font-size: 50px;
+.about-title,
+.skill-title {
+  font-size: 60px;
+}
+
+.javas {
+  font-size: 40px;
+  font-family: Roboto Mono, sans-serif;
+  position: relative;
+  right: 30rem;
+  top: 1rem;
 }
 
 .paragraphs {
@@ -175,6 +226,17 @@ body {
   font-size: 130px;
   position: relative;
   right: 47%;
+}
+
+@media all and (max-width: 900px) {
+  .home__title {
+    font-size: 50px;
+    margin-left: -11rem;
+  }
+
+  .github {
+    margin-left: -14rem;
+  }
 }
 
 @media (max-width: 800px) {
