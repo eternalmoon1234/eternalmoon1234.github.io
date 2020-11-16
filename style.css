@@ -13,42 +13,6 @@ body {
   padding: 0;
 }
 
-.js {
-  position: relative;
-  top: 25rem;
-  left: 10rem;
-}
-
-.node {
-  position: relative;
-  top: 70rem;
-  right: 3rem;
-}
-
-.ts {
-  position: relative;
-  top: 88rem;
-  right: 7rem;
-}
-
-.react {
-  position: relative;
-  top: 71rem;
-  left: 9rem;
-}
-
-.java {
-  position: relative;
-  top: 47rem;
-  left: 10rem;
-}
-
-.py {
-  position: relative;
-  top: 45rem;
-  right: 4rem;
-}
-
 .navbar {
   display: flex;
   position: relative;
