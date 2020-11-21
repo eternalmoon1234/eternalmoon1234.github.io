@@ -3,6 +3,7 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -250,6 +251,131 @@ body {
   font-size: 130px;
   position: relative;
   right: 47%;
+}
+
+.img-grabber {
+  width: 1300px;
+  padding: 50px;
+  margin: 20px;
+  height: 500px;
+  background-color: #e5e4e4;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-grabber h1 {
+  font-size: 40px;
+  color: black;
+  font-family: Roboto Mono, sans-serif;
+}
+
+.img-grabber p {
+  text-align: left;
+  color: black;
+  font-size: 30px;
+  font-family: "Arimo", sans-serif;
+}
+
+.img-github {
+  border: none;
+  background-color: #4717f6;
+  outline: none;
+  cursor: pointer;
+  pad: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+  font-size: 60px;
+  position: relative;
+  top: 4rem;
+  right: 15rem;
+  color: white;
+}
+
+.view-img-grabber {
+  border: none;
+  background-color: #4717f6;
+  outline: none;
+  cursor: pointer;
+  pad: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  position: relative;
+  top: 4rem;
+  right: 39rem;
+}
+
+.editor-github {
+  border: none;
+  background-color: #4717f6;
+  outline: none;
+  cursor: pointer;
+  pad: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+  font-size: 60px;
+  position: relative;
+  top: 6rem;
+  right: 15rem;
+  color: white;
+}
+
+.javaicon {
+  position: relative;
+  top: 1rem;
+}
+
+.view-text-editor {
+  border: none;
+  background-color: #4717f6;
+  outline: none;
+  cursor: pointer;
+  pad: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  position: relative;
+  top: 6rem;
+  right: 39rem;
+}
+
+.editor-github:hover,
+.view-text-editor:hover,
+.view-img-grabber:hover,
+.img-github:hover {
+  background-color: #8568eb;
+}
+
+.bx.bxl-html5 {
+  color: #e34c26;
+}
+
+.bx.bxl-css3 {
+  color: #264de4;
+}
+
+.bx.bxl-nodejs {
+  color: #68a063;
+}
+
+.icons {
+  font-size: 60px;
+  position: relative;
+  left: 37rem;
 }
 
 @media all and (max-width: 900px) {
